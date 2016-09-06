@@ -17,6 +17,6 @@ target 'PartyHunter' do
     # Pods for testing
   end
 
-  pod 'Firebase'
+  pod 'Firebase/Messaging'
 
 end
