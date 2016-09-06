@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64B505B663025D1965FE53F1 /* Pods_PartyHunterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8FBF6155C426752091C881 /* Pods_PartyHunterTests.framework */; };
 		8CFC15F11D7E937000A99C56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC15F01D7E937000A99C56 /* AppDelegate.swift */; };
 		8CFC15F31D7E937000A99C56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC15F21D7E937000A99C56 /* ViewController.swift */; };
 		8CFC15F61D7E937000A99C56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CFC15F41D7E937000A99C56 /* Main.storyboard */; };
@@ -14,6 +15,10 @@
 		8CFC15FB1D7E937000A99C56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CFC15F91D7E937000A99C56 /* LaunchScreen.storyboard */; };
 		8CFC16061D7E937000A99C56 /* PartyHunterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC16051D7E937000A99C56 /* PartyHunterTests.swift */; };
 		8CFC16111D7E937000A99C56 /* PartyHunterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC16101D7E937000A99C56 /* PartyHunterUITests.swift */; };
+		8CFC16201D7E946100A99C56 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFC161F1D7E946100A99C56 /* LoginController.swift */; };
+		8CFC16221D7E94E100A99C56 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8CFC16211D7E94E100A99C56 /* GoogleService-Info.plist */; };
+		E31E9FF55C0FDD9D9CEBDC62 /* Pods_PartyHunterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5929BE951C994FB2E3455DC1 /* Pods_PartyHunterUITests.framework */; };
+		E4283765DFB5B5EC8776E66F /* Pods_PartyHunter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2A6707E369821122505941 /* Pods_PartyHunter.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F2401DAC9389CB219693ADB /* Pods-PartyHunterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PartyHunterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PartyHunterTests/Pods-PartyHunterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B8FBF6155C426752091C881 /* Pods_PartyHunterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PartyHunterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4708A7C8DC37FA07ECF01AC1 /* Pods-PartyHunterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PartyHunterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PartyHunterUITests/Pods-PartyHunterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5929BE951C994FB2E3455DC1 /* Pods_PartyHunterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PartyHunterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61A6778CDACC0FE1FA36CC62 /* Pods-PartyHunterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PartyHunterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PartyHunterTests/Pods-PartyHunterTests.release.xcconfig"; sourceTree = "<group>"; };
 		8CFC15ED1D7E937000A99C56 /* PartyHunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PartyHunter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CFC15F01D7E937000A99C56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CFC15F21D7E937000A99C56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,13 @@
 		8CFC160C1D7E937000A99C56 /* PartyHunterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PartyHunterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CFC16101D7E937000A99C56 /* PartyHunterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyHunterUITests.swift; sourceTree = "<group>"; };
 		8CFC16121D7E937000A99C56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CFC161F1D7E946100A99C56 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		8CFC16211D7E94E100A99C56 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8CFC162F1D7E966100A99C56 /* PartyHunter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PartyHunter-Bridging-Header.h"; sourceTree = "<group>"; };
+		A454EAEE9AA22B1367E35B80 /* Pods-PartyHunterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PartyHunterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PartyHunterUITests/Pods-PartyHunterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C4E42BA33E9EC09444A1957E /* Pods-PartyHunter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PartyHunter.release.xcconfig"; path = "Pods/Target Support Files/Pods-PartyHunter/Pods-PartyHunter.release.xcconfig"; sourceTree = "<group>"; };
+		DCA35104C419C2FBDB548150 /* Pods-PartyHunter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PartyHunter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PartyHunter/Pods-PartyHunter.debug.xcconfig"; sourceTree = "<group>"; };
+		DD2A6707E369821122505941 /* Pods_PartyHunter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PartyHunter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4283765DFB5B5EC8776E66F /* Pods_PartyHunter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64B505B663025D1965FE53F1 /* Pods_PartyHunterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +87,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E31E9FF55C0FDD9D9CEBDC62 /* Pods_PartyHunterUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		046FFF98AA8CE704B34C2234 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCA35104C419C2FBDB548150 /* Pods-PartyHunter.debug.xcconfig */,
+				C4E42BA33E9EC09444A1957E /* Pods-PartyHunter.release.xcconfig */,
+				0F2401DAC9389CB219693ADB /* Pods-PartyHunterTests.debug.xcconfig */,
+				61A6778CDACC0FE1FA36CC62 /* Pods-PartyHunterTests.release.xcconfig */,
+				4708A7C8DC37FA07ECF01AC1 /* Pods-PartyHunterUITests.debug.xcconfig */,
+				A454EAEE9AA22B1367E35B80 /* Pods-PartyHunterUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		203A1AF879B09FDEF5D61A5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD2A6707E369821122505941 /* Pods_PartyHunter.framework */,
+				2B8FBF6155C426752091C881 /* Pods_PartyHunterTests.framework */,
+				5929BE951C994FB2E3455DC1 /* Pods_PartyHunterUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8CFC15E41D7E936F00A99C56 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +124,8 @@
 				8CFC16041D7E937000A99C56 /* PartyHunterTests */,
 				8CFC160F1D7E937000A99C56 /* PartyHunterUITests */,
 				8CFC15EE1D7E937000A99C56 /* Products */,
+				046FFF98AA8CE704B34C2234 /* Pods */,
+				203A1AF879B09FDEF5D61A5D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +142,15 @@
 		8CFC15EF1D7E937000A99C56 /* PartyHunter */ = {
 			isa = PBXGroup;
 			children = (
+				8CFC161E1D7E944000A99C56 /* Controller */,
 				8CFC15F01D7E937000A99C56 /* AppDelegate.swift */,
 				8CFC15F21D7E937000A99C56 /* ViewController.swift */,
 				8CFC15F41D7E937000A99C56 /* Main.storyboard */,
 				8CFC15F71D7E937000A99C56 /* Assets.xcassets */,
 				8CFC15F91D7E937000A99C56 /* LaunchScreen.storyboard */,
 				8CFC15FC1D7E937000A99C56 /* Info.plist */,
+				8CFC16211D7E94E100A99C56 /* GoogleService-Info.plist */,
+				8CFC162F1D7E966100A99C56 /* PartyHunter-Bridging-Header.h */,
 			);
 			path = PartyHunter;
 			sourceTree = "<group>";
@@ -125,6 +173,14 @@
 			path = PartyHunterUITests;
 			sourceTree = "<group>";
 		};
+		8CFC161E1D7E944000A99C56 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8CFC161F1D7E946100A99C56 /* LoginController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CFC16151D7E937000A99C56 /* Build configuration list for PBXNativeTarget "PartyHunter" */;
 			buildPhases = (
+				340F10DABE2FBB8D9E8C6842 /* [CP] Check Pods Manifest.lock */,
 				8CFC15E91D7E937000A99C56 /* Sources */,
 				8CFC15EA1D7E937000A99C56 /* Frameworks */,
 				8CFC15EB1D7E937000A99C56 /* Resources */,
+				D6FB82D2FB98066BC5C01ABA /* [CP] Embed Pods Frameworks */,
+				4F722D6FD4340BB625CFA020 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CFC16181D7E937000A99C56 /* Build configuration list for PBXNativeTarget "PartyHunterTests" */;
 			buildPhases = (
+				392E4E9AD0E600B5C82C4179 /* [CP] Check Pods Manifest.lock */,
 				8CFC15FD1D7E937000A99C56 /* Sources */,
 				8CFC15FE1D7E937000A99C56 /* Frameworks */,
 				8CFC15FF1D7E937000A99C56 /* Resources */,
+				81540F90AA3EF64B726A8A0C /* [CP] Embed Pods Frameworks */,
+				CB16C5974905682BC30C4D6D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +229,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CFC161B1D7E937000A99C56 /* Build configuration list for PBXNativeTarget "PartyHunterUITests" */;
 			buildPhases = (
+				716FD4271CD3FDAA7C08C0DB /* [CP] Check Pods Manifest.lock */,
 				8CFC16081D7E937000A99C56 /* Sources */,
 				8CFC16091D7E937000A99C56 /* Frameworks */,
 				8CFC160A1D7E937000A99C56 /* Resources */,
+				CF9B66F710F37D289EE8FE81 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +257,7 @@
 				TargetAttributes = {
 					8CFC15EC1D7E937000A99C56 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = KQW9PQ8LNW;
+						DevelopmentTeam = 3P77G8CPLQ;
 					};
 					8CFC16001D7E937000A99C56 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -234,6 +298,7 @@
 			files = (
 				8CFC15FB1D7E937000A99C56 /* LaunchScreen.storyboard in Resources */,
 				8CFC15F81D7E937000A99C56 /* Assets.xcassets in Resources */,
+				8CFC16221D7E94E100A99C56 /* GoogleService-Info.plist in Resources */,
 				8CFC15F61D7E937000A99C56 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,12 +319,136 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		340F10DABE2FBB8D9E8C6842 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		392E4E9AD0E600B5C82C4179 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4F722D6FD4340BB625CFA020 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PartyHunter/Pods-PartyHunter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		716FD4271CD3FDAA7C08C0DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		81540F90AA3EF64B726A8A0C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PartyHunterTests/Pods-PartyHunterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB16C5974905682BC30C4D6D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PartyHunterTests/Pods-PartyHunterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF9B66F710F37D289EE8FE81 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PartyHunterUITests/Pods-PartyHunterUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6FB82D2FB98066BC5C01ABA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PartyHunter/Pods-PartyHunter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8CFC15E91D7E937000A99C56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8CFC15F31D7E937000A99C56 /* ViewController.swift in Sources */,
+				8CFC16201D7E946100A99C56 /* LoginController.swift in Sources */,
 				8CFC15F11D7E937000A99C56 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,28 +589,46 @@
 		};
 		8CFC16161D7E937000A99C56 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCA35104C419C2FBDB548150 /* Pods-PartyHunter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PartyHunter",
+				);
 				INFOPLIST_FILE = PartyHunter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.PartyHunter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PartyHunter/PartyHunter-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		8CFC16171D7E937000A99C56 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4E42BA33E9EC09444A1957E /* Pods-PartyHunter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PartyHunter",
+				);
 				INFOPLIST_FILE = PartyHunter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.daniel.PartyHunter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PartyHunter/PartyHunter-Bridging-Header.h";
 			};
 			name = Release;
 		};
 		8CFC16191D7E937000A99C56 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F2401DAC9389CB219693ADB /* Pods-PartyHunterTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PartyHunterTests/Info.plist;
@@ -434,6 +641,7 @@
 		};
 		8CFC161A1D7E937000A99C56 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61A6778CDACC0FE1FA36CC62 /* Pods-PartyHunterTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PartyHunterTests/Info.plist;
@@ -446,6 +654,7 @@
 		};
 		8CFC161C1D7E937000A99C56 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4708A7C8DC37FA07ECF01AC1 /* Pods-PartyHunterUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = PartyHunterUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -457,6 +666,7 @@
 		};
 		8CFC161D1D7E937000A99C56 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A454EAEE9AA22B1367E35B80 /* Pods-PartyHunterUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = PartyHunterUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -485,6 +695,7 @@
 				8CFC16171D7E937000A99C56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CFC16181D7E937000A99C56 /* Build configuration list for PBXNativeTarget "PartyHunterTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +704,7 @@
 				8CFC161A1D7E937000A99C56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CFC161B1D7E937000A99C56 /* Build configuration list for PBXNativeTarget "PartyHunterUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +713,7 @@
 				8CFC161D1D7E937000A99C56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
